@@ -30,10 +30,10 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
-  <link href="../../public/now-ui-dashboard-master/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../../public/now-ui-dashboard-master/assets/css/now-ui-dashboard.css" rel="stylesheet" />
+  <link href="<?= base_url("now-ui-dashboard-master/assets/css/bootstrap.min.css"); ?>" rel="stylesheet" />
+  <link href="<?= base_url("now-ui-dashboard-master/assets/css/now-ui-dashboard.css"); ?>" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../../public/now-ui-dashboard-master/assets/demo/demo.css" rel="stylesheet" />
+  <link href="<?= base_url('now-ui-dashboard-master/assets/demo/demo.css'); ?>" rel="stylesheet" />
 </head>
 
 <body class="">
@@ -53,7 +53,7 @@
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="#">
+            <a href="dashboard">
               <i class="now-ui-icons design_app"></i>
               <p>Dashboard</p>
             </a>
@@ -65,19 +65,19 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="pemesanan">
               <i class="now-ui-icons design_bullet-list-67"></i>
               <p>Pemesanan</p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="laporan">
               <i class="now-ui-icons text_caps-small"></i>
               <p>Laporan</p>
             </a>
           </li>
           <li class="active-pro">
-            <a href="#">
+            <a href="/">
               <i class="now-ui-icons arrows-1_cloud-download-93"></i>
               <p>Logout</p>
             </a>
