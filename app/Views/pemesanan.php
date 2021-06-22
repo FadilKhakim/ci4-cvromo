@@ -112,6 +112,7 @@
             <div class="panel-header panel-header-lg">
                 <canvas id="bigDashboardChart"></canvas>
             </div>
+<<<<<<< HEAD
             
             <footer class="footer">
                 <div class=" container-fluid ">
@@ -141,29 +142,87 @@
                     </div>
                 </div>
             </footer>
+=======
+            <div class="content">
+                <div class="row">
+                    <div class="card card-chart">
+                        <div class="card-header">
+                            <h5 class="card-category">Global Sales</h5>
+                            <h4 class="card-title">Shipped Products</h4>
+                        </div>
+                        <div class="card-body">
+                            // contoh form
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class=" container-fluid ">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.creative-tim.com">
+                                        Creative Tim
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://presentation.creative-tim.com">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://blog.creative-tim.com">
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="copyright" id="copyright">
+                            &copy; <script>
+                                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+                            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                        </div>
+                    </div>
+                </footer>
+            </div>
+>>>>>>> 2e0d0ef3b3f8fe0fb25e30a66c7f630963a8d3c2
         </div>
-    </div>
-    <!--   Core JS Files   -->
-    <script src="../../public/now-ui-dashboard-master/ssets/js/core/jquery.min.js"></script>
-    <script src="../../public/now-ui-dashboard-master/assets/js/core/popper.min.js"></script>
-    <script src="../assets/js/core/bootstrap.min.js"></script>
-    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-    <!--  Google Maps Plugin    -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-    <!-- Chart JS -->
-    <script src="../../public/now-ui-dashboard-master/assets/js/plugins/chartjs.min.js"></script>
-    <!--  Notifications Plugin    -->
-    <script src="../../public/now-ui-dashboard-master/assets/js/plugins/bootstrap-notify.js"></script>
-    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="../../public/now-ui-dashboard-master/assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
-    <script src="../../public/now-ui-dashboard-master/assets/demo/demo.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Javascript method's body can be found in assets/js/demos.js
-            demo.initDashboardPageCharts();
+        <!--   Core JS Files   -->
+        <script src="../../public/now-ui-dashboard-master/ssets/js/core/jquery.min.js"></script>
+        <script src="../../public/now-ui-dashboard-master/assets/js/core/popper.min.js"></script>
+        <script src="../assets/js/core/bootstrap.min.js"></script>
+        <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+        <!--  Google Maps Plugin    -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+        <!-- Chart JS -->
+        <script src="../../public/now-ui-dashboard-master/assets/js/plugins/chartjs.min.js"></script>
+        <!--  Notifications Plugin    -->
+        <script src="../../public/now-ui-dashboard-master/assets/js/plugins/bootstrap-notify.js"></script>
+        <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+        <script src="../../public/now-ui-dashboard-master/assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
+        <script src="../../public/now-ui-dashboard-master/assets/demo/demo.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Javascript method's body can be found in assets/js/demos.js
+                demo.initDashboardPageCharts();
 
-        });
-    </script>
+            });
+        </script>
 </body>
 
 </html>
