@@ -64,6 +64,12 @@
                             <p>User Profile</p>
                         </a>
                     </li>
+                    <li>
+                        <a href="laporan">
+                            <i class="now-ui-icons users_single-02"></i>
+                            <p>Kelola User</p>
+                        </a>
+                    </li>
                     <li class="active">
                         <a href="#">
                             <i class="now-ui-icons design_bullet-list-67"></i>
@@ -86,104 +92,106 @@
             </div>
         </div>
         <div class="main-panel" id="main-panel">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
-            <div class="container-fluid">
-            <div class="navbar-wrapper">
-                <div class="navbar-toggle">
-                <button type="button" class="navbar-toggler">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+                        <div class="navbar-toggle">
+                            <button type="button" class="navbar-toggler">
+                                <span class="navbar-toggler-bar bar1"></span>
+                                <span class="navbar-toggler-bar bar2"></span>
+                                <span class="navbar-toggler-bar bar3"></span>
+                            </button>
+                        </div>
+                        <a class="navbar-brand" href="#pablo">Pemesanan</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar navbar-kebab"></span>
+                        <span class="navbar-toggler-bar navbar-kebab"></span>
+                        <span class="navbar-toggler-bar navbar-kebab"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                    </div>
                 </div>
-                <a class="navbar-brand" href="#pablo">Pemesanan</a>
+            </nav>
+            <!-- End Navbar -->
+            <div class="panel-header">
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-bar navbar-kebab"></span>
-                <span class="navbar-toggler-bar navbar-kebab"></span>
-                <span class="navbar-toggler-bar navbar-kebab"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            </div>
-            </div>
-        </nav>
-        <!-- End Navbar -->
-        <div class="panel-header">
-        </div>
             <div class="content">
-                <div class="col">
-                    <div class="card card-chart">
-                        <div class="card-body">
-                            <form class="row g-3">
-                            <div class="col-md-6">
-                                <label for="inputNama" class="form-label">Nama </label>
-                                <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap*">
+                <div class="row">
+                    <div class="col">
+                        <div class="card card-chart">
+                            <div class="card-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="inputNama" class="form-label">Nama </label>
+                                        <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap*">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail" class="form-label">Email</label>
+                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email*">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputNomerHp" class="form-label">Telepon</label>
+                                        <input type="text" class="form-control" id="inputNomerHP" placeholder="Nomer Telepon*">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputAddress" class="form-label">Alamat</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputJP" class="form-label">Jenis Pemesanan </label>
+                                        <input type="text" class="form-control" id="inputJP" placeholder="Jenis Pemesanan*">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputQuantity" class="form-label">Quantity</label>
+                                        <input type="text" class="form-control" id="inputQuantity" placeholder="Quantity*">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="formFile" class="form-label">Lampiran Dokumen</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Keterangan Tambahan</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Kirim</button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="col-md-6">
-                                <label for="inputEmail" class="form-label">Email</label>
-                                <input type="text" class="form-control" id="inputEmail" placeholder="Email*">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputNomerHp" class="form-label">Telepon</label>
-                                <input type="text" class="form-control" id="inputNomerHP"placeholder="Nomer Telepon*" >
-                            </div>
-                            <div class="col-12">
-                                <label for="inputAddress" class="form-label">Alamat</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputJP" class="form-label">Jenis Pemesanan </label>
-                                <input type="text" class="form-control" id="inputJP" placeholder="Jenis Pemesanan*">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputQuantity" class="form-label">Quantity</label>
-                                <input type="text" class="form-control" id="inputQuantity" placeholder="Quantity*">
-                            </div>
-                            <div class="col-md-2">
-                                <label for="formFile" class="form-label">Lampiran Dokumen</label>
-                                <input class="form-control" type="file" id="formFile">
-                            </div>
-                            <div class="row-mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Kirim</button>
-                            </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
             <footer class="footer">
-                    <div class=" container-fluid ">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="https://www.creative-tim.com">
-                                        Creative Tim
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://presentation.creative-tim.com">
-                                        About Us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://blog.creative-tim.com">
-                                        Blog
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="copyright" id="copyright">
-                            &copy; <script>
-                                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-                            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
-                        </div>
+                <div class=" container-fluid ">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.creative-tim.com">
+                                    Creative Tim
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://presentation.creative-tim.com">
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://blog.creative-tim.com">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright" id="copyright">
+                        &copy; <script>
+                            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+                        </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
                     </div>
-                </footer>
+                </div>
+            </footer>
         </div>
         <!--   Core JS Files   -->
         <script src="../../public/now-ui-dashboard-master/ssets/js/core/jquery.min.js"></script>
