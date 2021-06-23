@@ -37,6 +37,8 @@ $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/pemesanan', 'Pemesanan::index');
 $routes->get('/laporan', 'Laporan::index');
+$routes->get('/user', 'User::index');
+
 
 /*
  * --------------------------------------------------------------------

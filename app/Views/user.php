@@ -58,14 +58,14 @@
                             <p>Dashboard</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="user">
+                    <li class="active">
+                        <a href="#">
                             <i class="now-ui-icons users_single-02"></i>
                             <p>User Profile</p>
                         </a>
                     </li>
-                    <li class="active">
-                        <a href="#">
+                    <li >
+                        <a href="pemesanan">
                             <i class="now-ui-icons design_bullet-list-67"></i>
                             <p>Pemesanan</p>
                         </a>
@@ -87,7 +87,7 @@
         </div>
         <div class="main-panel" id="main-panel">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+           <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
             <div class="container-fluid">
             <div class="navbar-wrapper">
                 <div class="navbar-toggle">
@@ -97,7 +97,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
                 </div>
-                <a class="navbar-brand" href="#pablo">Pemesanan</a>
+                <a class="navbar-brand" href="#pablo">User Profile</a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -132,31 +132,17 @@
                                 <label for="inputAddress" class="form-label">Alamat</label>
                                 <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*">
                             </div>
-                            <div class="col-md-6">
-                                <label for="inputJP" class="form-label">Jenis Pemesanan </label>
-                                <input type="text" class="form-control" id="inputJP" placeholder="Jenis Pemesanan*">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputQuantity" class="form-label">Quantity</label>
-                                <input type="text" class="form-control" id="inputQuantity" placeholder="Quantity*">
-                            </div>
-                            <div class="col-md-2">
-                                <label for="formFile" class="form-label">Lampiran Dokumen</label>
-                                <input class="form-control" type="file" id="formFile">
-                            </div>
-                            <div class="row-mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="col-12">
+                            <div >
                                 <button type="submit" class="btn btn-primary">Kirim</button>
+                            </div>
+                            <div >
+                                <button type="submit" class="btn btn-primary">Reset Password</button>
                             </div>
                             </form>
                         </div>
                     </div>
                 </div>
-            </div>
-            <footer class="footer">
+                <footer class="footer">
                     <div class=" container-fluid ">
                         <nav>
                             <ul>
@@ -184,6 +170,7 @@
                         </div>
                     </div>
                 </footer>
+            </div>
         </div>
         <!--   Core JS Files   -->
         <script src="../../public/now-ui-dashboard-master/ssets/js/core/jquery.min.js"></script>
@@ -208,4 +195,4 @@
         </script>
 </body>
 
-</html>
+</html> 
