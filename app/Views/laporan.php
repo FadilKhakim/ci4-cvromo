@@ -64,6 +64,12 @@
                             <p>User Profile</p>
                         </a>
                     </li>
+                    <li>
+                        <a href="laporan">
+                            <i class="now-ui-icons users_single-02"></i>
+                            <p>Kelola User</p>
+                        </a>
+                    </li>
                     <li class="">
                         <a href="pemesanan">
                             <i class="now-ui-icons design_bullet-list-67"></i>
