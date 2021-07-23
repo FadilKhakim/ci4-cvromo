@@ -65,7 +65,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="laporan">
+                        <a href="kelola-user">
                             <i class="now-ui-icons users_single-02"></i>
                             <p>Kelola User</p>
                         </a>
@@ -125,31 +125,35 @@
                                 <form class="row g-3">
                                     <div class="col-md-6">
                                         <label for="inputNama" class="form-label">Nama </label>
-                                        <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap*">
+                                        <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap*" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="inputEmail" class="form-label">Email</label>
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email*">
+                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email*" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="inputNomerHp" class="form-label">Telepon</label>
-                                        <input type="text" class="form-control" id="inputNomerHP" placeholder="Nomer Telepon*">
+                                        <input type="text" class="form-control" id="inputNomerHP" placeholder="Nomer Telepon*" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="inputAddress" class="form-label">Alamat</label>
-                                        <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*">
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="inputJP" class="form-label">Jenis Pemesanan </label>
-                                        <input type="text" class="form-control" id="inputJP" placeholder="Jenis Pemesanan*">
+                                        <label for="inputCe" class="form-label">Cetak</label>
+                                        <input type="text" class="form-control" id="inputCe" placeholder="Mau Cetak Apa ?*" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="inputQuantity" class="form-label">Quantity</label>
-                                        <input type="text" class="form-control" id="inputQuantity" placeholder="Quantity*">
+                                        <input type="text" class="form-control" id="inputQuantity" placeholder="Quantity*" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputTP" class="form-label">Tanggal Pemesanan </label>
+                                        <input type="date" class="form-control" id="inputTP" placeholder="Tanggal Pemesanan*" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="formFile" class="form-label">Lampiran Dokumen</label>
-                                        <input class="form-control" type="file" id="formFile">
+                                        <input class="form-control" type="file" id="formFile" required>
                                     </div>
                                     <div class="col-12">
                                         <label for="exampleFormControlTextarea1" class="form-label">Keterangan Tambahan</label>

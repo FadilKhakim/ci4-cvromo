@@ -65,7 +65,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="laporan">
+                        <a href="kelola-user">
                             <i class="now-ui-icons users_single-02"></i>
                             <p>Kelola User</p>
                         </a>

@@ -65,7 +65,7 @@
             </a>
           </li>
           <li>
-            <a href="laporan">
+            <a href="kelola-user">
               <i class="now-ui-icons users_single-02"></i>
               <p>Kelola User</p>
             </a>
@@ -201,9 +201,41 @@
                 <h4 class="card-title">Daftar Pesanan</h4>
               </div>
               <div class="card-body">
-                <div class="chart-area">
-                  <canvas id="barChartSimpleGradientsNumbers"></canvas>
-                </div>
+              <table class="table table-striped">
+                <thead>
+                    <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Tanggal</th>
+                    <th scope="col">Nama Pemesan</th>
+                    <th scope="col">Jenis Pesanan</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">1</th>
+                    <td>123</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>a</td>  
+                    </tr>
+                    <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>a</td> 
+                    </tr>
+                    <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>a</td> 
+                    </tr>
+                </tbody>
+                </table>
               </div>
               <div class="card-footer">
                 <div class="stats">

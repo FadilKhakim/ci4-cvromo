@@ -64,8 +64,8 @@
               <p>User Profile</p>
             </a>
           </li>
-          <li >
-            <a href="kelola-user">
+          <li class="active">
+            <a href="#">
               <i class="now-ui-icons users_single-02"></i>
               <p>Kelola User</p>
             </a>
@@ -76,7 +76,7 @@
               <p>Pemesanan</p>
             </a>
           </li>
-          <li class="active">
+          <li >
             <a href="laporan">
               <i class="now-ui-icons text_caps-small"></i>
               <p>Laporan</p>
@@ -130,11 +130,9 @@
                 <thead>
                     <tr>
                     <th scope="col">No</th>
-                    <th scope="col">Tanggal</th>
-                    <th scope="col">Nama Pemesan</th>
-                    <th scope="col">Jenis Pesanan</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Status</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Edit</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -142,21 +140,16 @@
                     <th scope="row">1</th>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>a</td>  
+  
                     </tr>
                     <tr>
                     <th scope="row">2</th>
                     <td>Jacob</td>
                     <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>a</td> 
                     </tr>
                     <tr>
                     <th scope="row">3</th>
                     <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>a</td> 
                     </tr>
                 </tbody>
                 </table>
