@@ -140,16 +140,18 @@
                     <th scope="row">1</th>
                     <td>Mark</td>
                     <td>Otto</td>
-  
+                    <td>Otto</td>
                     </tr>
                     <tr>
                     <th scope="row">2</th>
                     <td>Jacob</td>
                     <td>Thornton</td>
+                    <td>Otto</td>
                     </tr>
                     <tr>
                     <th scope="row">3</th>
                     <td colspan="2">Larry the Bird</td>
+                    <td>Otto</td>
                     </tr>
                 </tbody>
                 </table>

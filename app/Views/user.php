@@ -122,25 +122,25 @@
                     <div class="col">
                         <div class="card card-chart">
                             <div class="card-body">
-                                <form class="row g-3">
-                                    <div class="col-md-6">
+                                <form class="row g-3 p-3">
+                                    <div class="col-md-6 p-2">
                                         <label for="inputNama" class="form-label">Nama </label>
                                         <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap*">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-2">
                                         <label for="inputEmail" class="form-label">Email</label>
                                         <input type="text" class="form-control" id="inputEmail" placeholder="Email*">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-2">
                                         <label for="inputAddress" class="form-label">Alamat</label>
                                         <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-2">
                                         <label for="inputNomerHp" class="form-label">Telepon</label>
                                         <input type="text" class="form-control" id="inputNomerHP" placeholder="Nomer Telepon*">
                                     </div>
                                     <div class="ml-3 mt-3">
-                                        <button type="submit" class="btn btn-primary">Kirim</button>
+                                        <button type="submit" class="btn btn-primary">Save</button>
                                         <button type="submit" class="btn btn-primary">Reset Password</button>
                                     </div>
                                 </form>

@@ -122,40 +122,40 @@
                     <div class="col">
                         <div class="card card-chart">
                             <div class="card-body">
-                                <form class="row g-3">
-                                    <div class="col-md-6">
+                                <form class="row g-3 p-3">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputNama" class="form-label">Nama </label>
                                         <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputEmail" class="form-label">Email</label>
                                         <input type="text" class="form-control" id="inputEmail" placeholder="Email*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputNomerHp" class="form-label">Telepon</label>
                                         <input type="text" class="form-control" id="inputNomerHP" placeholder="Nomer Telepon*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputAddress" class="form-label">Alamat</label>
                                         <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputCe" class="form-label">Cetak</label>
                                         <input type="text" class="form-control" id="inputCe" placeholder="Mau Cetak Apa ?*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputQuantity" class="form-label">Quantity</label>
                                         <input type="text" class="form-control" id="inputQuantity" placeholder="Quantity*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="inputTP" class="form-label">Tanggal Pemesanan </label>
                                         <input type="date" class="form-control" id="inputTP" placeholder="Tanggal Pemesanan*" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 p-1">
                                         <label for="formFile" class="form-label">Lampiran Dokumen</label>
                                         <input class="form-control" type="file" id="formFile" required>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 p-1">
                                         <label for="exampleFormControlTextarea1" class="form-label">Keterangan Tambahan</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
